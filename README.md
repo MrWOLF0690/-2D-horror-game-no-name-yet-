@@ -1,4 +1,4 @@
-# -2D-horror-game-no-name-yet-
+# THE IRON FOUNDRY(2D HORROR GAME)
 It's a horror game made in the style of top down 2D games, about a Detective and some cases he investigates.
 
 ITS STILL IN DEVELOPMENT
