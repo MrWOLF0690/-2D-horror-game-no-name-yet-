@@ -7,6 +7,8 @@ ITS STILL IN DEVELOPMENT
 -i will continue updateing it weekly hopefully being done in 12 weeks to come out with a full release next year(if not i will probably release it before 2027 I want my game to be good lore wise and gameplay wise and I have some nice ideeas I wanna code)
 
 IF YOU WANT TO TRY IT:
+-W, A, S, D, to move around Q, to use the sanity pills -,=, will drop or increase the sanity at this stage of the game for testing and other purposes will be removed with the final version (or will it?) it will dont mind my second personality coming trough (maybe it would be an easter egg of some sorts?) Hmmm I will think abt it!
+-Right now there is not much to do just moving around and testing the little implementations i made
 -go to releases and you will see the extremly early version enjoy <3
 
 UPDATE 1:
