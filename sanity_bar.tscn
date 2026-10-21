@@ -1,0 +1,34 @@
+[gd_scene format=3 uid="uid://by8ywm4burug3"]
+
+[ext_resource type="Script" uid="uid://ch6lol887d2r0" path="res://sanity_bar.gd" id="1_3q1ex"]
+[ext_resource type="Texture2D" uid="uid://dc2er60kxirbk" path="res://sanity-bar-empty.png" id="2_smbsl"]
+[ext_resource type="Texture2D" uid="uid://b0k3hqy7ktac7" path="res://sanity-bar-10 (1).png" id="3_jdiso"]
+[ext_resource type="Texture2D" uid="uid://bo06525cy1pfs" path="res://sanity-bar-15 (1).png" id="4_c004u"]
+[ext_resource type="Texture2D" uid="uid://dpt5syp5djiny" path="res://sanity-bar-20.png" id="5_xbjku"]
+[ext_resource type="Texture2D" uid="uid://bf1y4lb44g7gy" path="res://sanity-bar-25.png" id="6_1wgu3"]
+[ext_resource type="Texture2D" uid="uid://d1ncdl2h4gtl2" path="res://sanity-bar-35.png" id="7_ykn0f"]
+[ext_resource type="Texture2D" uid="uid://ka2hb7u8ntin" path="res://sanity-bar-45.png" id="8_mcgye"]
+[ext_resource type="Texture2D" uid="uid://c24c052lwf2sy" path="res://sanity-bar-50.png" id="9_imjey"]
+[ext_resource type="Texture2D" uid="uid://b3oikwen0orlf" path="res://sanity-bar-55.png" id="10_qo8j6"]
+[ext_resource type="Texture2D" uid="uid://cfn6l6mt7vtwy" path="res://sanity-bar-60.png" id="11_c8kn1"]
+[ext_resource type="Texture2D" uid="uid://6tbrspv1y6ni" path="res://sanity-bar-65.png" id="12_b3u7g"]
+[ext_resource type="Texture2D" uid="uid://cnfkora0eof13" path="res://sanity-bar-75.png" id="13_5meq0"]
+[ext_resource type="Texture2D" uid="uid://dl4ndl2h1gq5u" path="res://sanity-bar-85.png" id="14_kbk28"]
+[ext_resource type="Texture2D" uid="uid://cjkmbegrt1no3" path="res://sanity-bar-90.png" id="15_hxyfy"]
+[ext_resource type="Texture2D" uid="uid://es6qa3nabdhw" path="res://sanity-bar-95.png" id="16_fpu0q"]
+[ext_resource type="Texture2D" uid="uid://ca6p55mq2ihno" path="res://Sprites/sanity-bar-full.png" id="17_mo5m2"]
+
+[node name="SanityBar" type="CanvasLayer" unique_id=1319897311]
+script = ExtResource("1_3q1ex")
+state_textures = Array[Texture2D]([ExtResource("2_smbsl"), ExtResource("3_jdiso"), ExtResource("4_c004u"), ExtResource("5_xbjku"), ExtResource("6_1wgu3"), ExtResource("7_ykn0f"), ExtResource("8_mcgye"), ExtResource("9_imjey"), ExtResource("10_qo8j6"), ExtResource("11_c8kn1"), ExtResource("12_b3u7g"), ExtResource("13_5meq0"), ExtResource("14_kbk28"), ExtResource("15_hxyfy"), ExtResource("16_fpu0q"), ExtResource("17_mo5m2")])
+
+[node name="Icon" type="TextureRect" parent="." unique_id=347676807]
+texture_filter = 1
+anchors_preset = 5
+anchor_left = 0.5
+anchor_right = 0.5
+offset_left = -128.0
+offset_right = 128.0
+offset_bottom = 128.0
+grow_horizontal = 2
+stretch_mode = 4
