@@ -19,3 +19,8 @@ UPDATE 1:
 <img width="1919" height="1079" alt="image" src="https://github.com/user-attachments/assets/11a1553e-9687-4ed2-9d1b-c850753d68a0" />
 <img width="1919" height="1079" alt="image" src="https://github.com/user-attachments/assets/e8bcf456-feba-4091-b744-5de87de305a4" />
 
+WHY A HORROR GAME? AND WHY A GAME?
+
+-So I really wanted to make a game for a long time this was the best motivation I ever had to make one I have some previous experience with game developing in lua mostly Roblox games and a few little games I made so the transition from lua to Godot was pretty friendly and easy to learn I still have some thing I find hard to code and that I dont understand about godot, but Youtube tutorials are really helpfull.
+-The horror genre of games really marked my person, having played a lot of horror/story games this feels at home with myself and my personality, I think that once I finish this game and I get it to a playable state with a interesting story people will enjoy the games I make!
+-Any criticism is welcomed I want to make my game as good as possible and every piece of feedback I get from the community means that it will be better.I hope you enjoy the game I'm making and be paticent for the story part that will be implemented among the last updates as right now I'm focusing on game mechanics and making sprites for the game!
