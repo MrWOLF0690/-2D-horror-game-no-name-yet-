@@ -1,0 +1,10 @@
+[gd_scene format=3 uid="uid://bhy4sw7notsoa"]
+
+[ext_resource type="Script" uid="uid://bagdmaacxyvbg" path="res://inventory_hud.gd" id="1_u04g0"]
+
+[node name="InventoryHUD" type="CanvasLayer" unique_id=1759815202]
+script = ExtResource("1_u04g0")
+
+[node name="PillLabel" type="Label" parent="." unique_id=822907195]
+offset_right = 40.0
+offset_bottom = 23.0

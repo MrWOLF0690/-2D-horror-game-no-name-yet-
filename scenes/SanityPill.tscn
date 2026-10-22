@@ -1,0 +1,68 @@
+[gd_scene format=3 uid="uid://5okg1aptuaf8"]
+
+[ext_resource type="Script" uid="uid://c1fc3fsnpfjg" path="res://sanity_pill.gd" id="1_lk3y2"]
+[ext_resource type="Texture2D" uid="uid://cwbq6y5u2sso7" path="res://Sanity-pil-bottlev2_0001.png" id="2_qupi0"]
+[ext_resource type="Texture2D" uid="uid://btmqhpinbtbsd" path="res://Sanity-pil-bottlev-2_0002.png" id="3_a7phu"]
+[ext_resource type="Texture2D" uid="uid://baal3dolq5cd2" path="res://Sanity-pil-bottlev-2_0003.png" id="4_yib50"]
+[ext_resource type="Texture2D" uid="uid://bx68pb65xlree" path="res://Sanity-pil-bottlev-2_0004.png" id="5_roft8"]
+[ext_resource type="Texture2D" uid="uid://btblkwdu7eqoo" path="res://Sanity-pil-bottlev-2_0005.png" id="6_2jddx"]
+[ext_resource type="Texture2D" uid="uid://ogq15gwo0xjd" path="res://Sanity-pil-bottlev-2_0006.png" id="7_8wibe"]
+[ext_resource type="Texture2D" uid="uid://drbrlfyo6h2j1" path="res://Sanity-pil-bottlev-2_0007.png" id="8_b707g"]
+[ext_resource type="Texture2D" uid="uid://mx0y3rsetmpw" path="res://Sanity-pil-bottlev-2_0008.png" id="9_5827k"]
+[ext_resource type="Texture2D" uid="uid://cal4s51o1s1ye" path="res://Sanity-pil-bottlev-2_0009.png" id="10_0rj8i"]
+[ext_resource type="Texture2D" uid="uid://cl7vo2qjjdu3h" path="res://Sanity-pil-bottlev-2_0010.png" id="11_ke8oc"]
+
+[sub_resource type="SpriteFrames" id="SpriteFrames_ycn7i"]
+animations = [{
+"frames": [{
+"duration": 1.0,
+"texture": ExtResource("2_qupi0")
+}, {
+"duration": 1.0,
+"texture": ExtResource("3_a7phu")
+}, {
+"duration": 1.0,
+"texture": ExtResource("4_yib50")
+}, {
+"duration": 1.0,
+"texture": ExtResource("5_roft8")
+}, {
+"duration": 1.0,
+"texture": ExtResource("6_2jddx")
+}, {
+"duration": 1.0,
+"texture": ExtResource("7_8wibe")
+}, {
+"duration": 1.0,
+"texture": ExtResource("8_b707g")
+}, {
+"duration": 1.0,
+"texture": ExtResource("9_5827k")
+}, {
+"duration": 1.0,
+"texture": ExtResource("10_0rj8i")
+}, {
+"duration": 1.0,
+"texture": ExtResource("11_ke8oc")
+}],
+"loop": 1,
+"name": &"idle",
+"speed": 10.0
+}]
+
+[sub_resource type="SphereShape3D" id="SphereShape3D_tk0kp"]
+
+[node name="SanityPill" type="Area3D" unique_id=2132758665]
+script = ExtResource("1_lk3y2")
+
+[node name="AnimatedSprite3D" type="AnimatedSprite3D" parent="." unique_id=1147295018]
+pixel_size = 0.008
+sprite_frames = SubResource("SpriteFrames_ycn7i")
+animation = &"idle"
+autoplay = "idle"
+frame = 9
+frame_progress = 0.44444302
+
+[node name="CollisionShape3D" type="CollisionShape3D" parent="." unique_id=1163387023]
+transform = Transform3D(0.8, 0, 0, 0, 0.8, 0, 0, 0, 0.8, 0, 0, 0)
+shape = SubResource("SphereShape3D_tk0kp")
