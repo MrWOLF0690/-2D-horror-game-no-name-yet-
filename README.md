@@ -21,6 +21,15 @@ UPDATE 1:
 <img width="1919" height="1079" alt="image" src="https://github.com/user-attachments/assets/11a1553e-9687-4ed2-9d1b-c850753d68a0" />
 <img width="1919" height="1079" alt="image" src="https://github.com/user-attachments/assets/e8bcf456-feba-4091-b744-5de87de305a4" />
 
+UPDATE 2:
+-Added a main menu(will get updated with custom menu images)
+-Added a pause menu(will get updated with custom pause menu)
+-Added a way to save the game(still working on it it works but kinda)
+-Added a settings tab so you can change keybinds graphics and yeah(janky but works, will also get updated with custom settings menu)
+<img width="1919" height="1079" alt="image" src="https://github.com/user-attachments/assets/50fb91a3-7701-49ba-8cc5-707f7810d560" />
+<img width="1919" height="1079" alt="image" src="https://github.com/user-attachments/assets/b237ea94-9179-4535-9989-3ddfe89da29b" />
+<img width="1919" height="1079" alt="image" src="https://github.com/user-attachments/assets/4f897170-0b24-4890-8bed-5cde9322933c" />
+
 WHY A HORROR GAME? AND WHY A GAME?
 
 -So I really wanted to make a game for a long time this was the best motivation I ever had to make one I have some previous experience with game developing in lua mostly Roblox games and a few little games I made so the transition from lua to Godot was pretty friendly and easy to learn I still have some thing I find hard to code and that I dont understand about godot, but Youtube tutorials are really helpfull.
